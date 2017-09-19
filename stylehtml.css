@@ -1,0 +1,139 @@
+*{
+	font-size: 18px; 
+	position: relative;
+ }
+
+header {
+	margin-bottom: 30px;
+	background-color: gray;
+	padding: 1%;
+    position: sticky;
+    top: 0;
+	height: 70px;
+	z-index: 1000;
+	border-radius: 20px;
+}
+
+footer {
+	border-radius: 20px;
+	height: 20px;
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
+	text-align: center;
+	background-color: DeepSkyBlue;
+	border: 3%;
+	border-style: solid;
+	border-left: 0;
+	border-right: 0;
+	border-color: black;
+	padding: 3%;
+}
+}
+
+body {
+	padding: 30px;
+	margin: 0 12%;
+
+}
+
+.logo {
+	float: left;
+}
+
+.logo img {
+	float: left;
+	width: 137px;
+}
+
+.logo-text {
+	border-radius: 30px;
+	font-size: 34px;
+	float: left;
+	margin: 20px 10px;
+	color: white;
+}
+
+.menu {
+	float: right;
+}
+
+ul li {
+	margin: 0 10px;
+	display: inline;
+}
+
+.cuc-bai-viet {
+	overflow: auto;
+	width: 25%;
+	height: 250px;
+	float: left;
+	background-color: white;
+	margin: 35px;
+	color: black;
+	border-radius: 20px;
+	border:2px solid black;
+	padding: 8px;
+}
+.clear-both {
+	clear: both;
+}
+
+.slogan {
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
+	text-align: center;
+	background-color: DeepSkyBlue;
+	border: 3%;
+	border-style: solid;
+	border-left: 0;
+	border-right: 0;
+	border-color: black;
+	padding: 3%;
+	border-radius: 20px;
+}
+.slogan a {
+	margin: 10px;
+}
+h2 {
+	color: red;
+	text-align: inherit;
+}
+		html, body {
+			  margin:0;
+			  padding:40px;
+			  background: #ffffff;
+			  color: #666666;
+			  line-height: 1.25em;
+		  }
+		  #outer {
+			  position: absolute;
+			  top: 50%;
+			  left: 50%;
+			  width: 1px;
+			  height: 1px;
+			  overflow: visible;
+		  }
+		  #canvasContainer {
+			  position: absolute;
+			  width: 1000px;
+			  height: 560px;
+			  top: -280px;
+			  left: -500px;
+		  }
+		  canvas {
+			  border: 1px solid #333333;
+		  }
+		  a {
+		  	  margin: 
+			  color: #cb0000;
+			  text-decoration: none;
+			  font-weight: bold;
+		  }
+		  a:hover {
+			  color: #FFFFFF;
+		  }
+		  #output {
+			  font-family: Arial, Helvetica, sans-serif;
+			  font-size: 0.75em;
+			  margin-top: 4px;
+		  }
+		  @media screen and (max-width: 650px){
+
